@@ -2,7 +2,6 @@
 En este documento se explicará como configurar el entorno docker proporcionado por Chakray, para que tenga la solución proporcionada por Adrián Ródenas Picó.
 
 ## Estructura del zip
----
 El zip que contiene la solución consta de los siguientes elementos:
 - **Carpeta "elementos_configuracion"**: contiene todos los ficheros de configuración y soluciones realizadas para el supuesto práctico. Que son: "data_food_db.dbs" para el datasource, "API.xml" para el código apache synapse y "swaggerApi.json" para la configuración de la API en Api Manager
 
@@ -10,7 +9,6 @@ El zip que contiene la solución consta de los siguientes elementos:
 - **Carpeta docker_composer_wso2** : contiene lo necesario para ejecutar el entorno del supuesto. *Nota:* se ha alterado el documento *docker-compose.yml* para añadir un par de volúmenes de docker para poder conservar los datos durante la ejecución de la práctica
 
 ## Instalación de los ficheros de configuración y soluciones
----
 Lo primero que se debe hacer después de descargar fichero zip,
 es acceder a la carpeta **docker_composer_wso2** con el terminal y ejecutar el comando **docker-compose up** como se muestra en la imagen.
 
